@@ -6,7 +6,7 @@ package com.dhz.struct;
  * @date 2019/8/19 20:41
  */
 public class TreeNode {
-    private int val;
+    public int val;
     public TreeNode left;
     public TreeNode right;
     public TreeNode(int x) { val = x; }
