@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 /**
+ * 字符串的排列
  * @author hezhe.du
  * @version 1.0
  * @date 2019/8/29 22:30

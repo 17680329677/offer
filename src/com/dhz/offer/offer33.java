@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 /**
+ * 二叉树中和为某一值的路径
  * @author hezhe.du
  * @version 1.0
  * @date 2019/8/28 22:01
@@ -39,7 +40,7 @@ public class offer33 {
         if(root==null)
             return pathList;
         Stack<Integer> stack=new Stack<Integer>();
-        FindPathCore(root,target,stack,pathList );
+        FindPathCore(root,target,stack,pathList);
         return pathList;
     }
     private void FindPathCore(TreeNode root, int target,
